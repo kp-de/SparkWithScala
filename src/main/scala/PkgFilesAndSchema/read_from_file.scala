@@ -26,7 +26,7 @@ csvfileDF.show()
 
  anotherFileDF.show()
 
-// now printing the inferred schema
+// now printing the inferred schema of the dataframe
 
   val mySchema = anotherFileDF.schema
   println(mySchema)
