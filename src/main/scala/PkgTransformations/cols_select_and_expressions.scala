@@ -51,4 +51,10 @@ object cols_select_and_expressions extends App {
 
   selectExprDF.show()
 
+
+  // Remove any column
+
+  val removedColDF = newDF.drop("Acceleration")
+  removedColDF.show()
+
 }
