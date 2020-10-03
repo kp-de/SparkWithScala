@@ -1,6 +1,7 @@
-package PkgTransformations
-import org.apache.spark.sql.{DataFrame, SparkSession}
-import org.apache.spark.sql.functions._
+package PkgSparkTypes
+
+import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.functions.{col, regexp_extract}
 
 object regex_search_in_df extends App {
   val spark = SparkSession.builder().master("local[*]").appName("Regex_Search").getOrCreate()
