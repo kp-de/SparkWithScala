@@ -1,6 +1,4 @@
-package PkgTransformations
-
-//  Add to build.sbt for the driver "org.postgresql" % "postgresql" % "42.2.2"
+package PkgFilesAndSchema
 
 import org.apache.spark.sql.SparkSession
 
